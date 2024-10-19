@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://cqju4pke7e8bp"]
+
+[ext_resource type="Texture2D" uid="uid://djgtunh1cwi51" path="res://Sriptes/Percy/player_15.png" id="1_ejgcm"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4vtot"]
+size = Vector2(74, 99)
+
+[node name="Percy" type="CharacterBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_ejgcm")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-4, -0.5)
+shape = SubResource("RectangleShape2D_4vtot")

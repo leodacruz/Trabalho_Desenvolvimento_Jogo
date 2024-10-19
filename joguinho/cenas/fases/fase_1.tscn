@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://dt60wg7dbujje"]
+
+[ext_resource type="Texture2D" uid="uid://bmj58rq6arpis" path="res://Sriptes/fases/fase1/ground_04.png" id="1_khnv1"]
+[ext_resource type="PackedScene" uid="uid://cqju4pke7e8bp" path="res://cenas/personagens/percy.tscn" id="2_rwcje"]
+
+[node name="Fase1" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(65, 65)
+texture = ExtResource("1_khnv1")
+
+[node name="Percy" parent="." instance=ExtResource("2_rwcje")]
