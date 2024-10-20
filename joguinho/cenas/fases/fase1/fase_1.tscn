@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dt60wg7dbujje"]
+
+[ext_resource type="PackedScene" uid="uid://cqju4pke7e8bp" path="res://cenas/personagens/percy.tscn" id="2_rwcje"]
+
+[node name="Fase1" type="Node2D"]
+
+[node name="Percy" parent="." instance=ExtResource("2_rwcje")]

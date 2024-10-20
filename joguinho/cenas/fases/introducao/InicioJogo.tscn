@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://jjo31q43pcah"]
+
+[ext_resource type="PackedScene" uid="uid://dkbheade4w7ig" path="res://cenas/fases/introducao/introducao.tscn" id="1_dnsbo"]
+[ext_resource type="PackedScene" uid="uid://cqju4pke7e8bp" path="res://cenas/personagens/percy.tscn" id="2_7smwn"]
+
+[node name="Introducao" type="Node2D"]
+
+[node name="Introducao" parent="." instance=ExtResource("1_dnsbo")]
+
+[node name="Percy" parent="." instance=ExtResource("2_7smwn")]
+position = Vector2(15, 316)
